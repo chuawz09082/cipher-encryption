@@ -18,3 +18,8 @@ The application can be run via the command line with customizable flags to speci
 - **Caesar Cipher Encryption**:  
   ```bash
   java -jar <your_jar> --caesar 3 --em "Hello World" --print
+
+## Requirements
+
+- **Java 21**: The project uses Java 21 features and requires JDK 21.
+- **JUnit**: For testing. The project includes test cases for each cipher.
