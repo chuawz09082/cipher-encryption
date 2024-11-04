@@ -23,3 +23,11 @@ The application can be run via the command line with customizable flags to speci
 
 - **Java 21**: The project uses Java 21 features and requires JDK 21.
 - **JUnit**: For testing. The project includes test cases for each cipher.
+
+## Project Structure
+
+- **AbstractCipher**: Abstract class for common cipher functionality.
+- **CipherFactory**: Factory pattern to instantiate different ciphers.
+- **Main.java**: Command-line interface to manage user input and file I/O.
+
+*Disclaimer: I do not own this project; it is from the assignment of the course CS2112 at Cornell University.*
